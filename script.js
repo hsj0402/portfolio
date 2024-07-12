@@ -56,3 +56,5 @@ function opentab(tabname, element) {
     }
 
     consoleText(['Wordpress Developer', 'MERN Stack Developer', 'Software Developer'], 'console', ['White','White','White']);
+
+
