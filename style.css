@@ -215,7 +215,7 @@ nav ul li a:hover::after {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 40px;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .skills-list div{
@@ -253,7 +253,15 @@ nav ul li a:hover::after {
 }
 
 .section{
+    padding-top: 25px;
     
+}
+
+.section h2{
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+
 }
 
 /* -------------------------portfolio---------------------------- */
