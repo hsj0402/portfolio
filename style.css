@@ -16,17 +16,24 @@ body {
     color: #fff;
 }
 
-#header {
+/* #header {
     width: 100%;
     height: 100vh;
     background-image: url(images/background.jpg);
     background-size: cover;
     background-position: center;
 
-}
+} */
 
 .navbar {
     padding: 10px 10%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; 
+    background: #080808;
+    
+    width: 100vw;
 }
 
 .container{
@@ -40,6 +47,33 @@ nav {
     justify-content: space-between;
     flex-wrap: wrap;
 
+}
+
+ 
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.header-text{
+    /* margin-top: 13%; */
+    font-size: 60px;
+    padding: 10px 10%;
+    padding-top: 18%;
+}
+
+.header-text h1{
+    font-size: 60px;
+    margin-top: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.header-text h1 span{
+    color: #01fdf0;
 }
 
 /* nav ul{
@@ -235,21 +269,7 @@ nav ul li a:hover::after {
     100% { opacity: 0; }
   }
 
-.header-text{
-    margin-top: 13%;
-    font-size: 60px;
-}
 
-.header-text h1{
-    font-size: 60px;
-    margin-top: 40px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-}
-
-.header-text h1 span{
-    color: #01fdf0;
-}
 
 /* ------------------about----------------------  */
 
@@ -502,6 +522,10 @@ nav ul li a:hover::after {
     color: #01fdf0;
     margin-right: 15px;
     font-size: 25px;
+}
+.contact-left p a{
+    color: #ababab;
+    text-decoration: none;
 }
 
 .social-icons{
