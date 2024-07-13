@@ -22,7 +22,7 @@
                         <li><a href="#portfolio">Portfolio</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
-                    <a href="#" class="button">Download CV</a>
+                    <a href="images/Resume.pdf" download class="button">Download CV</a>
                 </nav>
                 <div class="header-text">
                     <div class='console-container'><span id='text'></span>
@@ -212,7 +212,7 @@
             <div class="row">
                 <div class="contact-left">
                     <h1 class="sub-title">Contact Me</h1>
-                    <p><i class="fa-solid fa-envelope"></i>hsjain0402@gmail.com</p>
+                    <p><i class="fa-solid fa-envelope"></i>hsjwebdev04@gmail.com</p>
                     <p><i class="fa-solid fa-phone"></i>+91 8660372399</p>
                     <div class="social-icons">
                         <a href="#"><i class="fa-brands fa-linkedin"></i></a>
@@ -246,13 +246,14 @@
 
         form.addEventListener('submit', e => {
             e.preventDefault()
+            msg.innerHTML = "Message sent successfully";
+            form.reset();
             fetch(scriptURL, { method: 'POST', body: new FormData(form) })
                 .then(response => {
-                    msg.innerHTML = "Message sent successfully"
                     setTimeout(function () {
                         msg.innerHTML = ""
                     }, 5000)
-                    form.reset()
+                    
                 })
                 .catch(error => console.error('Error!', error.message))
         })
@@ -260,3 +261,4 @@
 </body>
 
 </html>
+

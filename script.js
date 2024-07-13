@@ -55,6 +55,6 @@ function opentab(tabname, element) {
       }, 400);
     }
 
-    consoleText(['Wordpress Developer', 'MERN Stack Developer', 'Software Developer'], 'console', ['White','White','White']);
+    consoleText(['MERN Stack Developer', 'Wordpress Developer', 'Software Developer'], 'console', ['#148ac2','#1bdfff','#3f00ff']);
 
 
