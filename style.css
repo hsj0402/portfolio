@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     background: #080808;
     color: #fff;
@@ -565,7 +569,7 @@ form .btn2{
     color: #61b752;
     margin-top: -40px;
     display: block;
-    
+
 
 }
 
