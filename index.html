@@ -25,9 +25,9 @@
                     <a href="images/Resume.pdf" download class="button">Download CV</a>
                 </nav>
                 <div class="header-text">
-                    <div class='console-container'><span id='text'></span>
-                        <div class='console-underscore' id='console'>&#95;</div>
-                    </div>
+                    <div id="console">
+                        <span id="text"></span><span class="console-underscore"></span>
+                      </div>
                     <h1>Hi, I'm <span>Harsh Jain</span> <br> From Mumbai.</h1>
                 </div>
             </div>
@@ -247,9 +247,9 @@
         form.addEventListener('submit', e => {
             e.preventDefault()
             msg.innerHTML = "Message sent successfully";
-            form.reset();
             fetch(scriptURL, { method: 'POST', body: new FormData(form) })
                 .then(response => {
+                    form.reset()
                     setTimeout(function () {
                         msg.innerHTML = ""
                     }, 5000)
