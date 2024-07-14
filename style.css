@@ -713,12 +713,12 @@ form .btn2 {
     .header-text {
         padding: 10px 5%;
         font-size: 35px;
-        padding-top: 35%;
+        padding-top: 45%;
     }
 
     .header-text h1 {
-        font-size: 35px;
-        margin-top: 20px;
+        font-size: 30px;
+        margin-top: 40px;
     }
 
     .navbar {
@@ -743,7 +743,7 @@ form .btn2 {
     }
 
     #console {
-        font-size: 30px;
+        font-size: 27px;
         color: white;
     }
 
@@ -753,3 +753,4 @@ form .btn2 {
       
     }
 }
+
