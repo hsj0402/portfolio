@@ -583,6 +583,37 @@ form .btn2 {
     border-radius: 10px;
 }
 
+/* ---------------------whatsapp------------------------ */
+
+/* body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+} */
+
+.whatsapp-icon {
+    position: fixed;
+    bottom: 38px;
+    right: 35px;
+    width: 50px;
+    height: 50px;
+    z-index: 1000;
+}
+
+.whatsapp-icon i {
+    width: 100%;
+    height: 100%;
+    font-size: 50px;
+    color: #01fdf0;
+    transition: transform 0.3s ease;
+}
+
+.whatsapp-icon i:hover {
+    transform: scale(1.1);
+}
+
+
 /* ------------------------------css for small screens-------------------- */
 
 /* Large devices (desktops, 1200px and up) */
