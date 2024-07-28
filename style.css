@@ -929,7 +929,7 @@ form .btn2 {
 
     .header-text h1 {
         font-size: 20px;
-        margin-top: 40px;
+        margin-top: 50px;
     }
 
     .navbar {
@@ -956,6 +956,7 @@ form .btn2 {
     #console {
         font-size: 20px;
         color: white;
+        margin-top: 20px;
     }
 
     .console-underscore {
