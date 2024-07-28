@@ -985,15 +985,15 @@ form .btn2 {
     .contact-left p a {
         color: #ababab;
         text-decoration: none;
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .contact-left p i{
-        font-size: 17px;
+        font-size: 18px;
     }
 
     .whatsapp-icon img{
-        width: 80%;
-        height: 80%;
+        width: 100%;
+        height: 100%;
     }
 }
