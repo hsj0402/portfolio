@@ -1,19 +1,23 @@
-var tablinks = document.getElementsByClassName("tab-links");
-var tabcontents = document.getElementsByClassName("tab-contents");
+var tabLinks = document.getElementsByClassName("tab-links");
+var tabContents = document.getElementsByClassName("tab-contents");
 
-function opentab(tabname, element) {
-    for (let i = 0; i < tablinks.length; i++) {
-        tablinks[i].classList.remove("active-link");
-    }
+console.log("tabLinks", tabLinks);
+console.log("tabContents", tabContents);
 
-    for (let i = 0; i < tabcontents.length; i++) {
-        tabcontents[i].classList.remove("active-tab");
-    }
+function openTab(tabName, element) {
+  console.log("tabName", tabName);
+  console.log("element", element);
 
-   
-    element.classList.add("active-link");
-    document.getElementById(tabname).classList.add("active-tab");
-    
+  for (let i = 0; i < tabLinks.length; i++) {
+    tabLinks[i].classList.remove("active-link");
+  }
+
+  for (let i = 0; i < tabContents.length; i++) {
+    tabContents[i].classList.remove("active-tab");
+  }
+
+  element.classList.add("active-link");
+  document.getElementById(tabName).classList.add("active-tab");
 }
 
 
@@ -46,6 +50,14 @@ function consoleText(words, id, colors) {
 }
 
 consoleText(['MERN Stack Developer', 'Wordpress Developer', 'Software Developer'], 'text', ['#ff0000', '#00ff00', '#0000ff']);
-    
 
+const hamburger = document.getElementById('hamburger');
+const menu = document.getElementById('menu');
 
+hamburger.addEventListener('click', function () {
+  menu.classList.add('open');
+});
+
+closeIcon.addEventListener('click', function () {
+  menu.classList.remove('open');
+});
