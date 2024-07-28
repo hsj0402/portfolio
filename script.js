@@ -51,13 +51,32 @@ function consoleText(words, id, colors) {
 
 consoleText(['MERN Stack Developer', 'Wordpress Developer', 'Software Developer'], 'text', ['#ff0000', '#00ff00', '#0000ff']);
 
+// const hamburger = document.getElementById('hamburger');
+// const menu = document.getElementById('menu');
+
+// hamburger.addEventListener('click', function () {
+//   menu.classList.add('open');
+// });
+
+// closeIcon.addEventListener('click', function () {
+//   menu.classList.remove('open');
+// });
+
 const hamburger = document.getElementById('hamburger');
 const menu = document.getElementById('menu');
+const closeIcon = document.getElementById('closeIcon');
+const menuItems = document.querySelectorAll('#menu a');
 
 hamburger.addEventListener('click', function () {
-  menu.classList.add('open');
+    menu.classList.add('open');
 });
 
 closeIcon.addEventListener('click', function () {
-  menu.classList.remove('open');
+    menu.classList.remove('open');
+});
+
+menuItems.forEach(item => {
+    item.addEventListener('click', function () {
+        menu.classList.remove('open');
+    });
 });
