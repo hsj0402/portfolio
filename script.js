@@ -72,3 +72,19 @@ menuItems.forEach(item => {
     });
 });
 
+
+
+document.getElementById('toggleButton').addEventListener('click', function(e) {
+  e.preventDefault();
+  const work4 = document.getElementById('work4');
+  const button = document.getElementById('toggleButton');
+  
+  if (work4.style.display === 'none') {
+      work4.style.display = 'block';
+      button.textContent = 'See less';
+  } else {
+      work4.style.display = 'none';
+      button.textContent = 'See more';
+  }
+});
+
