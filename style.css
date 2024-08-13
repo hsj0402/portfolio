@@ -640,6 +640,51 @@ form .btn2 {
 
 /* Medium devices (tablets, 768px to 1199px) */
 @media only screen and (max-width: 1199px) and (min-width: 1000px) {
+    .layer {
+        width: 300px;
+        height: 0;
+        background: linear-gradient(rgba(0, 0, 0, 0.6), #01fdf0);
+        border-radius: 10px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0 20px;
+        text-align: center;
+        font-size: 14px;
+        transition: height 0.5s;
+    }
+
+    .worklist {
+        display: grid;
+        /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 40px;
+        margin-top: 50px;
+    }
+
+    .work img {
+        width: 300px;
+        border-radius: 10px;
+        display: block;
+        height: 400px;
+        transition: transform 0.5s;
+    }
+
+    .work {
+        margin: 0 auto;
+        border-radius: 10px;
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .sub-title {
         font-size: 50px;
         font-weight: 600;
@@ -693,6 +738,51 @@ form .btn2 {
 }
 
 @media only screen and (max-width: 999px) and (min-width: 768px) {
+    .layer {
+        width: 200px;
+        height: 0;
+        background: linear-gradient(rgba(0, 0, 0, 0.6), #01fdf0);
+        border-radius: 10px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0 20px;
+        text-align: center;
+        font-size: 14px;
+        transition: height 0.5s;
+    }
+
+    .worklist {
+        display: grid;
+        /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 40px;
+        margin-top: 50px;
+    }
+
+    .work img {
+        width: 200px;
+        border-radius: 10px;
+        display: block;
+        height: 300px;
+        transition: transform 0.5s;
+    }
+
+    .work {
+        margin: 0 auto;
+        border-radius: 10px;
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .sub-title {
         font-size: 40px;
         font-weight: 600;
@@ -747,6 +837,51 @@ form .btn2 {
 
 /* Small devices (phones, 600px to 767px) */
 @media only screen and (max-width: 767px) and (min-width: 600px) {
+    .layer {
+        width: 200px;
+        height: 0;
+        background: linear-gradient(rgba(0, 0, 0, 0.6), #01fdf0);
+        border-radius: 10px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0 20px;
+        text-align: center;
+        font-size: 14px;
+        transition: height 0.5s;
+    }
+
+    .worklist {
+        display: grid;
+        /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 40px;
+        margin-top: 50px;
+    }
+
+    .work img {
+        width: 200px;
+        border-radius: 10px;
+        display: block;
+        height: 300px;
+        transition: transform 0.5s;
+    }
+
+    .work {
+        margin: 0 auto;
+        border-radius: 10px;
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .sub-title {
         font-size: 40px;
         font-weight: 600;
@@ -815,6 +950,58 @@ form .btn2 {
 
 /* Extra small devices (phones, less than 600px) */
 @media only screen and (max-width: 599px) {
+    .layer {
+        width: 200px;
+        height: 0;
+        background: linear-gradient(rgba(0, 0, 0, 0.6), #01fdf0);
+        border-radius: 10px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0 20px;
+        text-align: center;
+        font-size: 14px;
+        transition: height 0.5s;
+    }
+
+    .work:hover .layer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+    
+    .worklist {
+        display: grid;
+        /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 40px;
+        margin-top: 50px;
+    }
+
+    .work img {
+        width: 200px;
+        border-radius: 10px;
+        display: block;
+        height: 300px;
+        transition: transform 0.5s;
+    }
+
+    .work {
+        margin: 0 auto;
+        border-radius: 10px;
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .contact-left {
         flex-basis: 100%;
     }
@@ -890,7 +1077,7 @@ form .btn2 {
 
     .menu.open {
         right: 0;
-       background: #01fdf0;
+        background: #01fdf0;
     }
 
     .menu.close {
@@ -975,12 +1162,15 @@ form .btn2 {
         visibility: hidden;
         transition: opacity 0.5s ease, visibility 0.5s ease;
     }
+
     #menu.open {
         opacity: 1;
         visibility: visible;
     }
+
     html {
-        scroll-behavior: smooth; /* Enable smooth scrolling */
+        scroll-behavior: smooth;
+        /* Enable smooth scrolling */
     }
 
     .contact-left p a {
@@ -989,14 +1179,14 @@ form .btn2 {
         font-size: 18px;
     }
 
-    .contact-left p i{
+    .contact-left p i {
         font-size: 18px;
     }
 
-    .whatsapp-icon img{
+    .whatsapp-icon img {
         width: 100%;
         height: 100%;
     }
 
-    
+
 }
