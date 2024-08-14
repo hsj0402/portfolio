@@ -87,4 +87,17 @@ document.getElementById('toggleButton').addEventListener('click', function(e) {
       button.textContent = 'See more';
   }
 });
+document.getElementById('toggleButton').addEventListener('click', function(e) {
+  e.preventDefault();
+  const work5 = document.getElementById('work5');
+  const button = document.getElementById('toggleButton');
+  
+  if (work5.style.display === 'none') {
+      work5.style.display = 'flex';
+      button.textContent = 'See less';
+  } else {
+      work5.style.display = 'none';
+      button.textContent = 'See more';
+  }
+});
 
