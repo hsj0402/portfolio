@@ -1168,6 +1168,9 @@ form .btn2 {
         visibility: visible;
     }
 
+    .layer p{
+        display: none;
+    }
     html {
         scroll-behavior: smooth;
         /* Enable smooth scrolling */
