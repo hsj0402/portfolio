@@ -311,56 +311,6 @@ nav ul li a:hover::after {
 }
 
 /* ----------------------------------Skills-------------------------------------- */
-/* 
-#skills {
-    padding: 30px 0;
-}
-
-.skills-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 40px;
-    margin-top: 20px;
-}
-
-.skills-list div {
-    background: #262626;
-    padding: 40px;
-    font-size: 13px;
-    font-weight: 300;
-    border-radius: 10px;
-    transition: backgroung 0.5s, transform 0.5s;
-}
-
-.skills-list div i {
-    font-size: 50px;
-    margin-bottom: 30px;
-}
-
-.skills-list div h2 {
-    font-size: 30px;
-    font-weight: 500;
-    margin-bottom: 15px;
-}
-
-.skills-list div a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 12px;
-    margin-top: 20px;
-    display: inline-block;
-}
-
-.skills-list div:hover {
-    background: #01fdf0;
-    color: #080808;
-    transform: translateY(-10px);
-}
-
-.section {
-    padding-top: 25px;
-
-} */
 
 
 #skills {
@@ -448,10 +398,6 @@ nav ul li a:hover::after {
 .section {
     padding-top: 25px;
 }
-
-
-
-
 
 
 /* -------------------------portfolio---------------------------- */
@@ -658,12 +604,7 @@ form .btn2 {
 
 /* ---------------------whatsapp------------------------ */
 
-/* body {
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f8f9fa;
-} */
+
 
 .whatsapp-icon {
     position: fixed;
@@ -687,7 +628,6 @@ form .btn2 {
 
 /* ------------------------------css for small screens-------------------- */
 
-/* Large devices (desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     .sub-title {
         font-size: 50px;
@@ -730,7 +670,7 @@ form .btn2 {
     }
 }
 
-/* Medium devices (tablets, 768px to 1199px) */
+
 @media only screen and (max-width: 1199px) and (min-width: 1000px) {
     .layer {
         width: 300px;
@@ -753,7 +693,6 @@ form .btn2 {
 
     .worklist {
         display: grid;
-        /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 40px;
         margin-top: 50px;
@@ -851,7 +790,6 @@ form .btn2 {
 
     .worklist {
         display: grid;
-        /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 40px;
         margin-top: 50px;
@@ -927,7 +865,7 @@ form .btn2 {
     }
 }
 
-/* Small devices (phones, 600px to 767px) */
+
 @media only screen and (max-width: 767px) and (min-width: 600px) {
     .layer {
         width: 200px;
@@ -950,7 +888,6 @@ form .btn2 {
 
     .worklist {
         display: grid;
-        /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 40px;
         margin-top: 50px;
@@ -1040,7 +977,7 @@ form .btn2 {
     }
 }
 
-/* Extra small devices (phones, less than 600px) */
+
 @media only screen and (max-width: 599px) {
     .layer {
         width: 200px;
@@ -1070,7 +1007,6 @@ form .btn2 {
     
     .worklist {
         display: grid;
-        /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 40px;
         margin-top: 50px;
@@ -1230,7 +1166,6 @@ form .btn2 {
     }
 
     .header-text h1 span {
-        /* display: block; */
         font-size: 20px;
     }
 
