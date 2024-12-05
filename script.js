@@ -49,7 +49,7 @@ function consoleText(words, id, colors) {
   setInterval(typeSentence, 120);
 }
 
-consoleText(['MERN Stack Developer', 'Wordpress Developer', 'Software Developer'], 'text', ['#ff0000', '#00ff00', '#0000ff']);
+consoleText(['MERN Stack Developer', 'Web Developer', 'Software Developer'], 'text', ['#ff0000', '#00ff00', '#0000ff']);
 
 
 
